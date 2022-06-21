@@ -1,0 +1,400 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+}
+
+.one {
+    background-color: #131313;
+    color: white;
+}
+
+.two {
+    background-color: #DCDCD9;
+}
+
+.three {
+    background-color: #F0F0F0;
+}
+
+.four {
+    background-color: #42423C;
+    color: white;
+}
+
+.five {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* design to hamburger */
+
+.btn__hamburger {
+    padding: 14px;
+    position: absolute;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.hamburger__box {
+    height: 24px;
+    width: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+.hamburger__inner {
+    width: 100%;
+    left: 0;
+    top: 12px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.hamburger__inner::after,
+.hamburger__inner::before {
+    content: '';
+    border-radius: 20px;
+    top: 9px;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+}
+
+.hamburger__inner::before {
+    top: -9px;
+}
+
+.circles {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: end;
+}
+
+.circles img {
+    margin-right: 10%;
+    height: 100%;
+}
+
+.logo {
+    width: 100%;
+    height: 34%;
+    display: flex;
+    align-items: center;
+}
+
+.image-logo {
+    height: 80%;
+    margin-left: 15%;
+}
+
+.one-title {
+    font-size: 1.6rem;
+    width: 100%;
+    height: 12%;
+    font-family: 'Roboto Mono', monospace;
+    display: block;
+}
+
+.one-title p {
+    width: 70%;
+    margin-left: 25%;
+}
+
+.one-title p:nth-child(2) {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.div-button {
+    height: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-button button {
+    margin-top: -5%;
+    height: 40px;
+    width: 220px;
+    background-color: #FCFB04;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10PX;
+    -webkit-border-radius: 10PX;
+    -moz-border-radius: 10PX;
+    -ms-border-radius: 10PX;
+    -o-border-radius: 10PX;
+}
+
+.one-title,
+.circles,
+.logo,
+.div-button {
+    position: relative;
+    top: 8%;
+}
+
+.image-elektryk {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.image-elektryk img {
+    width: 86%;
+}
+
+.two-tittle {
+    position: relative;
+    top: 8%;
+    width: 88%;
+    height: 10%;
+    font-family: 'Shadows Into Light', cursive;
+    display: block;
+}
+
+.two-tittle img {
+    height: 70%;
+    width: 22%;
+    float: left;
+    margin: 1% 3% 0 7%;
+}
+
+.about_us_title1 {
+    font-weight: normal;
+    font-size: 1rem;
+    height: 22px;
+}
+
+.about_us_title2 {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.description {
+    position: relative;
+    top: 10%;
+    width: 90%;
+    padding: 0 5% 0 5%;
+    height: 50%;
+}
+
+.description img {
+    position: relative;
+    top: 5%;
+    left: 80%;
+    width: 17%;
+}
+
+.three-tittle {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    top: 8%;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.three-tittle div {
+    height: 60%;
+    width: 70%;
+    margin-left: 10%;
+}
+
+.three-tittle div:nth-child(1) {
+    height: 40%;
+}
+
+.projects {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+}
+
+.done p,
+.will_be_done p {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.projects_done,
+.projects_will_be_done {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.will_be_done {
+    margin-top: 10%;
+}
+
+.window_project {
+    height: 160px;
+    width: 220px;
+    background-color: #EDEDED;
+    margin-top: 14px;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid rgb(224, 224, 224);
+    box-shadow: 4px 4px .3em grey;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.support-tittle {
+    position: relative;
+    top: 8%;
+    width: 100%;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.support-tittle div {
+    margin-left: 10%;
+    width: 70%;
+}
+
+.support-tittle div:nth-child(2) {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.support-tittle div:first-child {
+    height: 24px;
+}
+
+.support-steps {
+    position: relative;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 10%;
+    padding-left: 10%;
+}
+
+.support-steps img {
+    margin-left: 4%;
+    height: 36px;
+    margin-bottom: 3px;
+}
+
+.underline::after {
+    content: '';
+    border: 2px solid #FCFB04;
+    border-radius: 10px;
+    display: block;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.support-steps img:first-child {
+    margin-left: 0;
+}
+
+.support-description {
+    position: relative;
+    top: 10%;
+    height: 70%;
+    width: 100%;
+    text-align: center;
+}
+
+.support-description div {
+    width: 77%;
+    padding: 3%;
+    margin-left: 10%;
+}
+
+.or {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.first-way,
+.second-way {
+    background-color: rgba(255, 255, 255, 0.10);
+    text-align: left;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.first-way {
+    height: 47%;
+    width: 92%;
+    margin-bottom: 10px;
+}
+
+.second-way {
+    height: 22%;
+    width: 92%;
+}
+
+.contact-stowarzyszenie,
+.contact-creater {
+    position: relative;
+    top: 15%;
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    font-size: 1.1rem;
+}
+
+.contact-stowarzyszenie div,
+.contact-creater div {
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-stowarzyszenie div:first-child,
+.contact-creater div:first-child {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.contact-stowarzyszenie div img,
+.contact-creater div img {
+    margin-right: 10px;
+    width: 24px;
+}
+
+.copyright {
+    position: relative;
+    text-align: center;
+    top: 14%;
+    opacity: .5;
+}
